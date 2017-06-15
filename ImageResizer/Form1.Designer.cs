@@ -75,13 +75,13 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.Size = new System.Drawing.Size(157, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "New resolution:";
+            this.label1.Text = "New resolution (e.g. 1280x720):";
             // 
             // newResolutionTB
             // 
-            this.newResolutionTB.Location = new System.Drawing.Point(98, 40);
+            this.newResolutionTB.Location = new System.Drawing.Point(175, 40);
             this.newResolutionTB.Name = "newResolutionTB";
             this.newResolutionTB.Size = new System.Drawing.Size(126, 20);
             this.newResolutionTB.TabIndex = 4;
