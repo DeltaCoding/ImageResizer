@@ -34,7 +34,6 @@
             this.openFileBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.newResolutionTB = new System.Windows.Forms.TextBox();
-            this.overwriteCB = new System.Windows.Forms.CheckBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
@@ -86,16 +85,6 @@
             this.newResolutionTB.Size = new System.Drawing.Size(126, 20);
             this.newResolutionTB.TabIndex = 4;
             // 
-            // overwriteCB
-            // 
-            this.overwriteCB.AutoSize = true;
-            this.overwriteCB.Location = new System.Drawing.Point(15, 66);
-            this.overwriteCB.Name = "overwriteCB";
-            this.overwriteCB.Size = new System.Drawing.Size(129, 17);
-            this.overwriteCB.TabIndex = 6;
-            this.overwriteCB.Text = "Overwrite original file?";
-            this.overwriteCB.UseVisualStyleBackColor = true;
-            // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(12, 103);
@@ -110,14 +99,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(655, 167);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.overwriteCB);
             this.Controls.Add(this.newResolutionTB);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.openFileBtn);
             this.Controls.Add(this.fileLocationTB);
             this.Controls.Add(this.resizeBtn);
             this.Name = "Form1";
-            this.Text = "ImageResizer";
+            this.Text = "ImageResizer v1.0";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,7 +119,6 @@
         private System.Windows.Forms.Button openFileBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox newResolutionTB;
-        private System.Windows.Forms.CheckBox overwriteCB;
         private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

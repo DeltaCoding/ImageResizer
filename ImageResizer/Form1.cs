@@ -52,15 +52,11 @@ namespace ImageResizer
                 gr.DrawImage(this.originalImage, new Rectangle(0, 0, width, height));
             }
 
-            if (!this.overwriteCB.Checked)
-            {
-                string[] tmp = this.filePath.Split('.');
-                newFilePath = tmp[0] + " - " + this.newResolutionTB.Text + "." + tmp[tmp.Length - 1];
-            }
-            
+            string[] tmp = this.filePath.Split('.');
+            newFilePath = tmp[0] + " - " + this.newResolutionTB.Text + "." + tmp[tmp.Length - 1];
             newImage.Save(newFilePath);
 
-            MessageBox.Show("Your new image can be found here:\n" + (this.overwriteCB.Checked ? this.filePath : newFilePath));
+            MessageBox.Show("Your new image can be found here:\n" + newFilePath);
         }
     }
 }
